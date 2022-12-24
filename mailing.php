@@ -13,8 +13,8 @@ function sendEmail($subjet, $body, $email, $name, $html = false)
     $mail->Host = 'smtp.mailtrap.io';
     $mail->SMTPAuth = true;
     $mail->Port = 2525;
-    $mail->Username = '9284b98741d5ec';
-    $mail->Password = '1f73c9bbd2e04d';
+    $mail->Username = '';
+    $mail->Password = '';
   
     // Añadiendo destinatarios
     $mail->setFrom('contact@miempresa.com', 'Mi empresa');    //Add a recipient
